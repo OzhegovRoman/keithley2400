@@ -8,6 +8,8 @@
 #define MAX_SCPI_LEN    255
 #define DEFAULT_TMO     5000
 
+using namespace QtCharts;
+
 namespace Ui {
 class MainDialog;
 }

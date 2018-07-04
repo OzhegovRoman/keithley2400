@@ -27,6 +27,23 @@
    <item>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Keithley 2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Keithley 2614B</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
       <widget class="QLabel" name="label">
        <property name="text">
         <string>Name:</string>
@@ -36,7 +53,7 @@
      <item>
       <widget class="QLineEdit" name="leName">
        <property name="text">
-        <string>KEITHLEY2400</string>
+        <string>KEITHLEY2614</string>
        </property>
       </widget>
      </item>
